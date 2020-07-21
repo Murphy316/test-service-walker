@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-20 13:27:42
- * @LastEditTime: 2020-07-20 16:17:09
+ * @LastEditTime: 2020-07-21 10:06:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \src\App.js
@@ -29,7 +29,7 @@ function App() {
     const registrationWaiting = serviceWorkerRegistration.waiting;
 
     if (registrationWaiting) {
-     // registrationWaiting.postMessage({ type: 'SKIP_WAITING' });
+     registrationWaiting.postMessage({ type: 'SKIP_WAITING' });
 
       registrationWaiting.addEventListener('statechange', e => {
         if (e.target.state === 'activated') {
@@ -54,7 +54,7 @@ function App() {
           />
         )}
       </div>
-<p>hahalulu</p>
+<p>last try</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
