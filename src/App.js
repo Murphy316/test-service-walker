@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-07-20 13:27:42
+ * @LastEditTime: 2020-07-20 16:17:09
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \src\App.js
+ */ 
 import React from 'react';
 import { useSelector } from 'react-redux';
 
@@ -46,7 +54,7 @@ function App() {
           />
         )}
       </div>
-<p>haha</p>
+<p>hahalulu</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
